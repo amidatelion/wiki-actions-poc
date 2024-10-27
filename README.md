@@ -21,7 +21,7 @@ Access to the wiki is managed by Github Repository Secrets (accessed via Setting
 
 1. On merge to `wiki`, the Github Action spins up.
 2. It checks out the the repo and external code (currently the wiki-gen-poc). 
-3. It runs the appropriate scripts. On an error, the Action proceeds to the next phase in the workflow. On a success, job's done. This is eminently configurable. 
+3. It runs the appropriate scripts. On an error, the Action exits immediately and cleans itself up. On a success, job's done. This is eminently configurable. 
 
 ## Next Steps
 
