@@ -9,6 +9,12 @@ jobs:
         name: Post Updates to Wiki
         runs-on: ubuntu-latest
         steps:
+            - name: 1st check state of directories 
+              run: |
+                  echo "1st check state of directorie"
+                  pwd
+                  ls -la bta
+                  ls -la wiki-gen-poc
             - name: Check out repository code
               uses: actions/checkout@v4
               with:
@@ -19,8 +25,9 @@ jobs:
                 repository: 'amidatelion/wiki-gen-poc'
                 path: wiki-gen-poc
                 ref: 'parser'
-            - name: Check state of directories again
+            - name: Post-checkout Check state of directories again
               run: |
+                  echo "Post-checkout Check state of directories again"
                   pwd
                   ls -la bta
                   ls -la wiki-gen-poc
@@ -32,6 +39,7 @@ jobs:
                 python3 /home/runner/wiki-gen-poc/src/factionRenderer.py
             - name: Check state of directories again
               run: |
+                echo "Check state of directories again"
                 pwd
                 ls -la bta
                 ls -la wiki-gen-poc
