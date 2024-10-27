@@ -35,7 +35,7 @@ jobs:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
                 WIKI_USER: $${{ vars.WIKI_USER}}
               run: |
-                python3 /home/runner/wiki-gen-poc/src/factionRenderer.py
+                python3 /home/runner/work/wiki-actions-poc/wiki-actions-poc/wiki-gen-poc/src/factionRenderer.py
             - name: Check state of directories again
               run: |
                 echo "Check state of directories again"
