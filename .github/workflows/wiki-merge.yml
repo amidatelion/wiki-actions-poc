@@ -17,6 +17,7 @@ jobs:
             - name: Check out repository code
               uses: actions/checkout@v4
               with:
+                repository: 'bloodydoves/BattleTech-Advanced'
                 path: bta
             - name: Check out generation code
               uses: actions/checkout@v4
