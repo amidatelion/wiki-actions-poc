@@ -17,7 +17,7 @@ jobs:
           ls ${{ github.workspace }}
       - name: Find out what $HOME is
         run: |
-          echo $HOME
+          echo "$HOME"
           ls $HOME
       - run: echo "🍏 This job's status is ${{ job.status }}."
 
