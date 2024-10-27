@@ -32,10 +32,3 @@ Currently runs at 2m 17s for just Faction Stores. An async http implementation w
 1. Verify assumptions re: Run Plan with BD.
 2. Implement the POC in the BTA Org space. There are gotchas with private repos I'd want to examine. 
 3. Investigate running specific scripts only if commits run against specific folders (i.e. don't run everything if only faction shops or factory worlds get updated)
-
-
-
-
-
-
-
