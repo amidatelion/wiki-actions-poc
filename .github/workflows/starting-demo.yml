@@ -3,7 +3,7 @@ run-name: Generic test 🚀 by ${{ github.actor }}
 on:
   push:
     branches:
-      - main
+      - nonexistant
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest

@@ -20,15 +20,20 @@ Access to the wiki is managed by Github Repository Secrets (accessed via Setting
 ## Iteration 1
 
 1. On merge to `wiki`, the Github Action spins up.
-2. It checks out the the repo and external code (currently the wiki-gen-poc). 
-3. It runs the appropriate script(s). On an error, the Action exits immediately and cleans itself up. On a success, job's done. This is eminently configurable. 
+2. It checks out the the ~~repo~~ archived BTA repo and external code (currently the wiki-gen-poc). 
+3. It runs the appropriate script(s) against the archived repo because I realized I needed access to the whole-ass codebase. On an error, the Action exits immediately and cleans itself up. On a success, job's done. This is eminently configurable. 
 
-View my mess of trying to figure this out [here](https://github.com/amidatelion/wiki-actions-poc/actions).
+View my mess of trying to figure this out [here](https://github.com/amidatelion/wiki-actions-poc/actions) and ask any questions that come up. 
 
 Currently runs at 2m 17s for just Faction Stores. An async http implementation will probably lop off a good 25-50% of that, but that's more research for me. 
 
+[Final Result](https://www.bta3062.com/index.php?title=WikiGenPoc), with broken links left in for "good enough" theory's sake (i.e. will be manually replaced by redirects or will use [jinja conditionals](https://github.com/amidatelion/wiki-gen-poc/tree/parser?tab=readme-ov-file#next-steps) to get to *mostly* the right place)
+
 ## Next Steps
 
-1. Verify assumptions re: Run Plan with BD.
+1. Verify assumptions re: Run Plan with BD. i.e BD please ask questions and select from...
+  1. Approvals in BTAU repo. Requires making it public.
+  2. Target `wiki` branch. Less automation, more intentional usage. Current assumption
+  3. Approvals in the wiki automation repo. 
 2. Implement the POC in the BTA Org space. There are gotchas with private repos I'd want to examine. 
 3. Investigate running specific scripts only if commits run against specific folders (i.e. don't run everything if only faction shops or factory worlds get updated)
