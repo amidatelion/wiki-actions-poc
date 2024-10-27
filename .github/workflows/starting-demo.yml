@@ -1,5 +1,9 @@
 name: GitHub Actions Basic Demo
 run-name: Generic test 🚀 by ${{ github.actor }}
+defaults:
+  run:
+    shell: bash
+    working-directory: ./scripts
 on: [push]
 jobs:
   Explore-GitHub-Actions:
