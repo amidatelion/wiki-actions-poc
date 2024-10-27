@@ -10,7 +10,7 @@ jobs:
             echo "1st check state of directories"
             pwd
             ls -la 
-            echo "1st check state of directories"
+            echo "check on dir up"
             ls -la ../
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
