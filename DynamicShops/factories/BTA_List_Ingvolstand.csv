@@ -1,0 +1,14 @@
+BTA_List_Ingvolstand,,,
+emod_engine_200,HeatSink,0,10
+emod_engineslots_fuelcell_center,HeatSink,0,10
+Weapon_MachineGun_MachineGun_0-STOCK,Weapon,0,10
+Weapon_Autocannon_AC5_LRIFLE,Weapon,0,10
+Weapon_Autocannon_AC10_MRIFLE,Weapon,0,10
+Weapon_Autocannon_AC20_HRIFLE,Weapon,0,10
+Weapon_RocketLauncher_RL10_0_STOCK,Weapon,0,10
+Weapon_RocketLauncher_RL15_0_STOCK,Weapon,0,10
+Weapon_RocketLauncher_RL20_0_STOCK,Weapon,0,10
+Ammo_AmmunitionBox_Generic_LRIFLE,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Generic_MRIFLE,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Generic_HRIFLE,AmmunitionBox,0,10
+mechdef_ironclad_IC-100,Mech,1,10

@@ -1,0 +1,71 @@
+[
+	{
+		"conditions": {
+			"tag": "planet_pop_small",
+			"owner": "the Taurians",
+			"rep": "+liked"
+		},
+		"items": "BTA_Liked_Periphery"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_large",
+			"owner": "the Taurians",
+			"rep": "+liked"
+		},
+		"items": "BTA_Liked_Periphery"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_medium",
+			"owner": "the Taurians",
+			"rep": "+liked"
+		},
+		"items": "BTA_Liked_Periphery"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_large",
+			"owner": "the Taurians",
+			"rep": "+FRIENDLY"
+		},
+		"items": "itemCollection_Mechs_faction_TaurianConcordat"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_large",
+			"owner": "the Taurians",
+			"rep": "HONORED"
+		},
+		"items": "BTA_Honored_Taurian"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_medium",
+			"owner": "the Taurians",
+			"rep": "HONORED"
+		},
+		"items": "BTA_Honored_Taurian"
+	},
+	{
+		"conditions": {
+			"owner": "the Taurians",
+			"rep": "+liked"
+		},
+		"items": "itemCollection_Tanks_faction_Taurian"
+	},
+	{
+		"conditions": {
+			"owner": "the Taurians",
+			"rep": "+FRIENDLY"
+		},
+		"items": "itemCollection_Tanks_faction_Taurian_Heavy"
+	},
+	{
+		"conditions": {
+			"owner": "the Taurians",
+			"rep": "+FRIENDLY"
+		},
+		"items": "itemCollection_major_TaurianConcordat"
+	}
+]

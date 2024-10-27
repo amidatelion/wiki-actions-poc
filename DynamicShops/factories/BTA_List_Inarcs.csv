@@ -1,0 +1,6 @@
+BTA_List_Inarcs,,,
+emod_engine_220,HeatSink,0,10
+emod_engine_260,HeatSink,0,10
+emod_engineslots_fuelcell_center,HeatSink,0,10
+mechdef_thunderbolt_TDR-5S,Mech,1,10
+mechdef_hephaestus_HAE-O,Mech,1,10

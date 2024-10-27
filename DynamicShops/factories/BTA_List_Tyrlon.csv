@@ -1,0 +1,14 @@
+BTA_List_Tyrlon,,,
+emod_engine_260,HeatSink,0,10
+Weapon_Laser_LargeLaser_Chemical_CLAN,Weapon,0,10
+Weapon_Laser_MediumLaser_Chemical_CLAN,Weapon,0,10
+Weapon_Laser_SmallLaser_Chemical_CLAN,Weapon,0,10
+Weapon_Mech_Grenade_Launcher,Weapon,0,10
+Ammo_AmmunitionBox_Generic_Chem_Laser,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Grenade_HiEx,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Grenade_Inferno,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Grenade_Smoke,AmmunitionBox,0,10
+mechdef_roughneck_RGH-1A,Mech,1,10
+mechdef_roughneck_RGH-1B,Mech,1,10
+mechdef_roughneck_RGH-1C,Mech,1,10
+mechdef_roughneck_RGH-3A,Mech,1,10

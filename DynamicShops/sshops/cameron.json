@@ -1,0 +1,71 @@
+[
+	{
+		"conditions": {
+			"tag": "planet_pop_small",
+			"owner": "Cameron",
+			"rep": "+liked"
+		},
+		"items": "BTA_Liked_GreatHouse"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_large",
+			"owner": "Cameron",
+			"rep": "+liked"
+		},
+		"items": "BTA_Liked_GreatHouse"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_medium",
+			"owner": "Cameron",
+			"rep": "+liked"
+		},
+		"items": "BTA_Liked_GreatHouse"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_large",
+			"owner": "Cameron",
+			"rep": "+FRIENDLY"
+		},
+		"items": "itemCollection_Mechs_faction_Cameron"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_large",
+			"owner": "Cameron",
+			"rep": "HONORED"
+		},
+		"items": "BTA_Honored_Cameron"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_medium",
+			"owner": "Cameron",
+			"rep": "HONORED"
+		},
+		"items": "BTA_Honored_Cameron"
+	},
+	{
+		"conditions": {
+			"owner": "Cameron",
+			"rep": "+liked"
+		},
+		"items": "itemCollection_Tanks_faction_Generic_InnerSphere"
+	},
+	{
+		"conditions": {
+			"owner": "Cameron",
+			"rep": "+FRIENDLY"
+		},
+		"items": "itemCollection_Tanks_faction_Generic_InnerSphere_Heavy"
+	},
+	{
+		"conditions": {
+			"owner": "Cameron",
+			"rep": "+FRIENDLY"
+		},
+		"items": "itemCollection_major_Cameron"
+	}
+]

@@ -1,0 +1,10 @@
+BTA_List_Wotan,,,
+emod_engine_250,HeatSink,0,10
+Gear_JumpJet_Generic_Standard,JumpJet,0,10
+Weapon_Autocannon_AC10_0-STOCK,Weapon,0,10
+Weapon_SRM_SRM2_0-STOCK,Weapon,0,10
+Weapon_PPC_PPC_0-STOCK,Weapon,0,10
+Ammo_AmmunitionBox_Generic_AC10,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Generic_SRM,AmmunitionBox,0,10
+mechdef_phoenix_PX-3R,Mech,1,10
+mechdef_phoenix_PX-4R,Mech,1,10

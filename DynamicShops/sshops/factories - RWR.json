@@ -1,0 +1,46 @@
+[
+	{
+		"conditions": {
+			"tag": "planet_name_apollo",
+			"owner": "RWR",
+			"rep": "+FRIENDLY"
+		},
+		"items": "BTA_List_Apollo"
+	},
+	{
+		"conditions": {
+			"tag": "planet_name_ingvolstand"
+		},
+		"items": "BTA_List_Ingvolstand"
+	},
+	{
+		"conditions": {
+			"tag": "planet_name_rondane"
+		},
+		"items": "BTA_List_Rondane"
+	},
+	{
+		"conditions": {
+			"tag": "planet_name_wotan"
+		},
+		"items": "BTA_List_Wotan"
+	},
+	{
+		"conditions": {
+			"tag": "planet_name_winter"
+		},
+		"items": "BTA_List_Winter"
+	},
+	{
+		"conditions": {
+			"tag": "planet_name_anywhere"
+		},
+		"items": "BTA_List_Anywhere"
+	},
+	{
+		"conditions": {
+			"tag": "planet_name_kwangjong-ni"
+		},
+		"items": "BTA_List_KwangjongNi"
+	}
+]

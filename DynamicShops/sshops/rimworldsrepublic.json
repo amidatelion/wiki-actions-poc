@@ -1,0 +1,71 @@
+[
+	{
+		"conditions": {
+			"tag": "planet_pop_small",
+			"owner": "RWR",
+			"rep": "+liked"
+		},
+		"items": "BTA_Liked_Periphery"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_large",
+			"owner": "RWR",
+			"rep": "+liked"
+		},
+		"items": "BTA_Liked_Periphery"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_medium",
+			"owner": "RWR",
+			"rep": "+liked"
+		},
+		"items": "BTA_Liked_Periphery"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_large",
+			"owner": "RWR",
+			"rep": "+FRIENDLY"
+		},
+		"items": "itemCollection_Mechs_faction_RWR"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_large",
+			"owner": "RWR",
+			"rep": "HONORED"
+		},
+		"items": "BTA_Honored_RWR"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_medium",
+			"owner": "RWR",
+			"rep": "HONORED"
+		},
+		"items": "BTA_Honored_RWR"
+	},
+	{
+		"conditions": {
+			"owner": "RWR",
+			"rep": "+liked"
+		},
+		"items": "itemCollection_Tanks_faction_Generic_Periphery"
+	},
+	{
+		"conditions": {
+			"owner": "RWR",
+			"rep": "+FRIENDLY"
+		},
+		"items": "itemCollection_Tanks_faction_Generic_Periphery_Heavy"
+	},
+	{
+		"conditions": {
+			"owner": "RWR",
+			"rep": "+FRIENDLY"
+		},
+		"items": "itemCollection_major_RimWorldsRepublic"
+	}
+]

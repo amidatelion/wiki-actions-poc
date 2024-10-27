@@ -1,0 +1,5 @@
+itemCollection_loot_eventMiniMechs,"Event Reward Source: Mini 'Mechs For Me!",,
+mechdef_ba_is_standard,Mech,2,1
+mechdef_ba_achilles,Mech,1,1
+vehicledef_APC_TURHAN,Mech,1,1
+vehicledef_APC_Vargr,Mech,1,1

@@ -1,0 +1,17 @@
+BTA_standard_Major,,,
+itemCollection_Weapons_common,Reference,4,2
+itemCollection_Weapons_uncommon,Reference,3,1
+itemCollection_Weapons_rare,Reference,2,1
+itemCollection_Upgrades_common,Reference,2,2
+itemCollection_Upgrades_uncommon,Reference,1,2
+ItemCollection_SS_IS,Reference,1,2
+ItemCollection_SS_Perephiry,Reference,1,2
+BTA_BribeLocals,Reference,1,10
+BTA_Loanshark,Reference,1,10
+BTA_Battle_Armor,Reference,0,10
+BTA_Battle_Armor_Weapons,Reference,3,10
+BTA_Upgrades,Reference,1,10
+BTA_JumpJets,Reference,2,10
+ItemCollection_Internals_IS_Rare,Reference,1,10
+itemCollection_Tanks_faction_Generic_InnerSphere,Reference,2,10
+BTA_Contracts,Reference,1,1

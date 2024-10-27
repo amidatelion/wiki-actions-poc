@@ -1,0 +1,17 @@
+BTA_List_Quentin,,,
+emod_engine_180,HeatSink,0,10
+emod_engine_240,HeatSink,0,10
+emod_engine_255,HeatSink,0,10
+emod_engine_260,HeatSink,0,10
+emod_engine_325,HeatSink,0,10
+emod_engine_320,HeatSink,0,10
+emod_engine_120,HeatSink,0,10
+emod_engineslots_xl_center,HeatSink,0,10
+Gear_JumpJet_Generic_Standard,JumpJet,0,10
+emod_armorslots_ferrosfibrous,Upgrade,0,10
+Weapon_MachineGun_MachineGun_0-STOCK,Weapon,0,10
+mechdef_gunslinger_GUN-1ERD,Mech,1,10
+mechdef_excalibur_EXC-CS,Mech,1,10
+mechdef_wyvern_WVE-5N,Mech,1,10
+mechdef_banshee_BNC-6R,Mech,1,10
+mechdef_striker_STC-2C,Mech,1,10

@@ -1,0 +1,10 @@
+BTA_List_Anywhere,,,
+emod_engine_300,HeatSink,0,10
+Weapon_Laser_MediumLaser_0-STOCK,Weapon,0,10
+Weapon_Autocannon_AC10_0-STOCK,Weapon,0,10
+Weapon_LRM_LRM15_0-STOCK,Weapon,0,10
+Weapon_SRM_SRM4_0-STOCK,Weapon,0,10
+Ammo_AmmunitionBox_Generic_AC10,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Generic_SRM,AmmunitionBox,0,10
+Ammo_AmmunitionBox_Generic_LRM,AmmunitionBox,0,10
+mechdef_orion_ON1-K,Mech,1,10

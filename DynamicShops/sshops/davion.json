@@ -1,0 +1,71 @@
+[
+	{
+		"conditions": {
+			"tag": "planet_pop_small",
+			"owner": "Davion",
+			"rep": "+liked"
+		},
+		"items": "BTA_Liked_GreatHouse"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_large",
+			"owner": "Davion",
+			"rep": "+liked"
+		},
+		"items": "BTA_Liked_GreatHouse"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_medium",
+			"owner": "Davion",
+			"rep": "+liked"
+		},
+		"items": "BTA_Liked_GreatHouse"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_large",
+			"owner": "Davion",
+			"rep": "+FRIENDLY"
+		},
+		"items": "itemCollection_Mechs_faction_Davion"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_large",
+			"owner": "Davion",
+			"rep": "HONORED"
+		},
+		"items": "BTA_Honored_Davion"
+	},
+	{
+		"conditions": {
+			"tag": "planet_pop_medium",
+			"owner": "Davion",
+			"rep": "HONORED"
+		},
+		"items": "BTA_Honored_Davion"
+	},
+	{
+		"conditions": {
+			"owner": "Davion",
+			"rep": "+liked"
+		},
+		"items": "itemCollection_Tanks_faction_Davion"
+	},
+	{
+		"conditions": {
+			"owner": "Davion",
+			"rep": "+FRIENDLY"
+		},
+		"items": "itemCollection_Tanks_faction_Davion_Heavy"
+	},
+	{
+		"conditions": {
+			"owner": "Davion",
+			"rep": "+FRIENDLY"
+		},
+		"items": "itemCollection_major_Davion"
+	}
+]
