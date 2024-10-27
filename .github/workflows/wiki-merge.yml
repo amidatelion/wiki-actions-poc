@@ -34,7 +34,7 @@ jobs:
             - name: Run Generation Code
               env:
                 WIKI_PASS: ${{ secrets.WIKI_PASS }}
-                WIKI_USER: $${{ vars.WIKI_USER}}
+                WIKI_USER: ${{ vars.WIKI_USER}}
               run: |
                 python3 /home/runner/work/wiki-actions-poc/wiki-actions-poc/wiki-gen-poc/src/factionRenderer.py
             - name: Check state of directories again
