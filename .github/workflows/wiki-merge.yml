@@ -1,0 +1,23 @@
+name: Wiki Update Demo
+run-name: Pushing Updates to BTA Wiki
+on: [push]
+#    push:
+#      branches:
+#        - wiki
+jobs:
+    post-to-wiki:
+        name: Post Updates to Wiki
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out repository code
+              uses: actions/checkout@v4
+              with:
+                path: bta
+            - name: Check out generation code
+              uses: actions/checkout@v4
+              with:
+                repository: 'amidatelion/wiki-gen-poc'
+                path: wiki-gen-poc
+            - name: Determine state of directory
+              run: |
+                ls -l
