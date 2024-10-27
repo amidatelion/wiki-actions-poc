@@ -13,8 +13,7 @@ jobs:
               run: |
                   echo "1st check state of directorie"
                   pwd
-                  ls -la bta
-                  ls -la wiki-gen-poc
+                  ls -la 
             - name: Check out repository code
               uses: actions/checkout@v4
               with:
