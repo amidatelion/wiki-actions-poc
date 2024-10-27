@@ -18,6 +18,15 @@ jobs:
               with:
                 repository: 'amidatelion/wiki-gen-poc'
                 path: wiki-gen-poc
-            - name: Determine state of directory
+                ref: 'parser'
+            - name: Run Generation Code
+              env:
+                WIKI_PASS: ${{ secrets.WIKI_PASS }}
+                WIKI_USER: $${{ vars.WIKI_USER}}
               run: |
-                ls -l
+                python3 /home/runner/wiki-gen-poc/src/factionRenderer.py
+            - name: Check state of directories
+              run: |
+                pwd
+                ls -la bta
+                ls -la wiki-gen-poc
