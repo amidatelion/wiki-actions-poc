@@ -32,8 +32,8 @@ Currently runs at 2m 17s for just Faction Stores. An async http implementation w
 ## Next Steps
 
 1. Verify assumptions re: Run Plan with BD. i.e BD please ask questions and select from...
-  1. Approvals in BTAU repo. Requires making it public.
-  2. Target `wiki` branch. Less automation, more intentional usage. Current assumption
-  3. Approvals in the wiki automation repo. 
+    1. Approvals in BTAU repo. Requires making it public.
+    2. Target `wiki` branch. Less automation, more intentional usage. Current assumption
+    3. Approvals in the wiki automation repo. 
 2. Implement the POC in the BTA Org space. There are gotchas with private repos I'd want to examine. 
 3. Investigate running specific scripts only if commits run against specific folders (i.e. don't run everything if only faction shops or factory worlds get updated)
